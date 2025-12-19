@@ -1,5 +1,5 @@
 tabs:
-  - ApiGateway/src/main/java/com/gateway/ApiGatewayApplication.java
+  - APIGateway/src/main/java/com/gateway/ApiGatewayApplication.java
   - ServiceRegistry/src/main/java/com/registry/ServiceRegistryApplication.java
   - CustomerService/src/main/java/com/customer/CustomerController.java
   - ProductService/src/main/java/com/shakthi/ProductServiceApplication.java
