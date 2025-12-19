@@ -8,15 +8,15 @@ run-button: >
   cd ServiceRegistry && mvn spring-boot:run &
   cd ApiGateway && mvn spring-boot:run &
   cd CustomerService && mvn spring-boot:run &
-  cd order-service && mvn spring-boot:run &
-  cd payment-service && mvn spring-boot:run
+  cd OrderService && mvn spring-boot:run &
+  cd PaymentService && mvn spring-boot:run
 
 terminals:
   - cd ServiceRegistry && mvn spring-boot:run &
   - cd ApiGateway && mvn spring-boot:run &
   - cd CustomerService && mvn spring-boot:run &
-  - cd order-service && mvn spring-boot:run &
-  - cd payment-service && mvn spring-boot:run
+  - cd OrderService && mvn spring-boot:run &
+  - cd PaymentService && mvn spring-boot:run
 
 browser-link: /
 playground-view: browser
