@@ -1,0 +1,7 @@
+package com.shakthi.service;
+
+import com.shakthi.entity.OrderData;
+
+public interface OrderService {
+	OrderData place(OrderData od);
+}

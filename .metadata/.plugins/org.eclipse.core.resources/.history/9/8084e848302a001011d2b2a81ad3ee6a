@@ -1,0 +1,14 @@
+package com.shakthi.feign;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.shakthi.dto.Customer;
+
+
+@FeignClient(name = "customer-service")
+public interface CustomerFeign {
+	@GetMapping("/findById/{id}")
+	public Customer getById(@PathVariable Integer id);
+}

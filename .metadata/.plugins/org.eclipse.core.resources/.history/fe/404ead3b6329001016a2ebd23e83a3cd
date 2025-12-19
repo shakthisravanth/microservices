@@ -1,0 +1,12 @@
+package com.shakthi.entity;
+
+import jakarta.persistence.Entity;
+import lombok.Data;
+
+@Entity
+@Data
+public class Customer {
+	Integer id;
+	String name;
+	String email;
+}

@@ -1,0 +1,5 @@
+package com.shakthi.feign;
+
+public interface ProductFeign {
+
+}

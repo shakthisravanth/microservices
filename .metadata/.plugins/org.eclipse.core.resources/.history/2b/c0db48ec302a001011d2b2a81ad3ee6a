@@ -1,0 +1,19 @@
+package com.shakthi.controller;
+
+import java.util.*;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/orders")
+public class OrderController {
+	
+	@GetMapping("/all")
+	List<String> getOrders() {
+		
+		return Arrays.asList("Order 1", "Order 2", "Order 3");
+		
+	}
+}

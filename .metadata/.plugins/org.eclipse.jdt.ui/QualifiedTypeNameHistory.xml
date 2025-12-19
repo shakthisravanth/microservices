@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.client.discovery.EnableDiscoveryClient"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="com.shakthi.repo.CustomerRepo"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestAttribute"/>
+    <fullyQualifiedTypeName name="java.beans.Customizer"/>
+    <fullyQualifiedTypeName name="com.shakthi.service.CustomerService"/>
+    <fullyQualifiedTypeName name="com.shakthi.entity.Customer"/>
+    <fullyQualifiedTypeName name="com.shakthi.repo.ProductRepo"/>
+    <fullyQualifiedTypeName name="com.shakthi.service.ProductService"/>
+    <fullyQualifiedTypeName name="com.shakthi.entity.Product"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
+    <fullyQualifiedTypeName name="com.shakthi.repo.OrderRepo"/>
+    <fullyQualifiedTypeName name="com.shakthi.feign.CustomerFeign"/>
+    <fullyQualifiedTypeName name="com.shakthi.feign.ProductFeign"/>
+    <fullyQualifiedTypeName name="com.shakthi.dto.Customer"/>
+    <fullyQualifiedTypeName name="com.shakthi.dto.Product"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="com.shakthi.service.OrderService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.shakthi.entity.OrderData"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+</qualifiedTypeNameHistroy>

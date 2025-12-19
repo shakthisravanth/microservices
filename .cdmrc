@@ -1,0 +1,22 @@
+tabs:
+  - ApiGateway/src/main/java/com/gateway/ApiGatewayApplication.java
+  - ServiceRegistry/src/main/java/com/registry/ServiceRegistryApplication.java
+  - CustomerService/src/main/java/com/customer/CustomerController.java
+  - ProductService/src/main/java/com/shakthi/ProductServiceApplication.java
+  - OrderService/src/main/java/com/shakthi/OrderServiceApplication.java
+run-button: >
+  cd ServiceRegistry && mvn spring-boot:run &
+  cd ApiGateway && mvn spring-boot:run &
+  cd CustomerService && mvn spring-boot:run &
+  cd order-service && mvn spring-boot:run &
+  cd payment-service && mvn spring-boot:run
+
+terminals:
+  - cd ServiceRegistry && mvn spring-boot:run &
+  - cd ApiGateway && mvn spring-boot:run &
+  - cd CustomerService && mvn spring-boot:run &
+  - cd order-service && mvn spring-boot:run &
+  - cd payment-service && mvn spring-boot:run
+
+browser-link: /
+playground-view: browser

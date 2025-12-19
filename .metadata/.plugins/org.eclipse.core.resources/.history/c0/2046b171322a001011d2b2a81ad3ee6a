@@ -1,0 +1,49 @@
+package com.shakthi.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.shakthi.dto.Customer;
+import com.shakthi.dto.Product;
+import com.shakthi.entity.OrderData;
+import com.shakthi.feign.CustomerFeign;
+import com.shakthi.feign.ProductFeign;
+import com.shakthi.repo.OrderRepo;
+
+public class OrderServiceImplementation implements OrderService {
+
+	@Autowired
+	OrderRepo repo;
+
+	@Autowired
+	CustomerFeign cf;
+
+	@Autowired
+	ProductFeign pf;
+
+	@Override
+	public OrderData place(OrderData od) {
+		Integer cId = od.getCustomerId();
+		Integer pId = od.getProductId();
+		Customer c = cf.getById(cId);
+		Product p = pf.findById(pId);
+		if (c != null && p != null) {
+
+		}
+
+	}
+
+	@Override
+	public List<OrderData> all() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public OrderData findById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

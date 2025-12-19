@@ -1,0 +1,15 @@
+package com.shakthi.service;
+
+import java.util.List;
+
+import com.shakthi.entity.Customer;
+
+public interface CustomerService {
+
+	Customer save(Customer c);
+
+	List<Customer> getAllCustomers();
+
+	Customer findById(Integer id);
+
+}

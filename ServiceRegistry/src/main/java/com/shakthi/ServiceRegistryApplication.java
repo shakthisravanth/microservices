@@ -1,0 +1,19 @@
+package com.shakthi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@EnableEurekaServer
+// turns the Spring boot application into a Eureka server
+
+// It allows other microservices to register themselves for discovery
+
+@SpringBootApplication
+public class ServiceRegistryApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ServiceRegistryApplication.class, args);
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.shakthi.entity;
+
+public class Product {
+
+}

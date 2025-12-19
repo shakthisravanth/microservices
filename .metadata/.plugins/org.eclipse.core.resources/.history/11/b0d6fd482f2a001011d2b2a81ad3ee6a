@@ -1,0 +1,7 @@
+package com.shakthi.dto;
+
+public class Product {
+	Integer id;
+	String name;
+	Double price;
+}

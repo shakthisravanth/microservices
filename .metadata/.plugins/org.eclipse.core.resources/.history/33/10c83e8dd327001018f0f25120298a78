@@ -1,0 +1,12 @@
+package com.shakthi.controller;
+
+import java.util.Arrays;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class OrderController {
+	getOrders(){
+		return Arrays.asList("Order 1","Order 2","Order 3");
+	}
+}

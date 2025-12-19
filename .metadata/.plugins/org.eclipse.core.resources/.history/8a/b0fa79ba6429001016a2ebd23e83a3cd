@@ -1,0 +1,11 @@
+package com.shakthi.service;
+
+import com.shakthi.entity.Customer;
+
+public interface CustomerService {
+
+	Customer save(Customer c);
+	
+	
+
+}

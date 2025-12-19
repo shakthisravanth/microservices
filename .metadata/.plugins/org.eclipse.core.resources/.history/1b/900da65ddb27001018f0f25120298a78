@@ -1,0 +1,17 @@
+package com.shakthi.controller;
+
+import java.util.*;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CustomerController {
+
+	@GetMapping("/customers")
+	public List<String> getCustomers() {
+
+		return Arrays.asList("Dinga", "Sundra", "Chinna");
+
+	}
+}

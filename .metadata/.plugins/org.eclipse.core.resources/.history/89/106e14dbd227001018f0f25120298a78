@@ -1,0 +1,12 @@
+package com.shakthi.controller;
+
+import java.util.Arrays;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ProductController {
+	getProducts(){
+		return Arrays.asList("Laptop","Mobile","Charger");
+	}
+}
